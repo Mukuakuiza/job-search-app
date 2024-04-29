@@ -7,7 +7,7 @@ const Home = () => {
     <>
         <Contextual/>
         <Cards/>
-        <JobList/>
+        <JobList isHome={true}/>
         <ViewAllJobs/>
     </>
   )
