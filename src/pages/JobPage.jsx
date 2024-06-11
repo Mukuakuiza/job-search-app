@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const JobPage = () => {
   const { id } = useParams();
-  const job = useLoaderData();
+  const job = useLoaderData(); //help us tp access the loader, with all the jobs information
 
   return (
     <>
